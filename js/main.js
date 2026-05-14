@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const msg = document.getElementById('loading-msg');
     if (msg) msg.style.display = 'block';
     setTimeout(() => {
-      window.location.href = 'https://trafficwizard.online/';
+      window.location.href = 'https://google.com';
     }, 5500);
-    btn.addEventListener('click', () => window.location.href = 'https://trafficwizard.online/');
+    btn.addEventListener('click', () => window.location.href = 'https://google.com');
   }
 });
